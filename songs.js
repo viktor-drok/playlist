@@ -386,6 +386,235 @@ We're off to never-never land
 Take my hand
 We're off to never-never land`,
         video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/CD-E-LDc384" title="Metallica: Enter Sandman (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    },
+    {
+        author: 'depeche mode',
+        song: 'PERSONAL JESUS',
+        text: `Reach out, touch faith
+Your own personal Jesus
+Someone to hear your prayers
+Someone who cares
+Your own personal Jesus
+Someone to hear your prayers
+Someone who's there
+Feeling unknown
+And you're all alone
+Flesh and bone
+By the telephone
+Lift up the receiver
+I'll make you a believer
+Take second best
+Put me to the test
+Things on your chest
+You need to confess
+I will deliver
+You know I'm a forgiver
+Reach out, touch faith
+Reach out, touch faith
+Your own personal Jesus
+Someone to hear your prayers
+Someone who cares
+Your own personal Jesus
+Someone to hear your prayers
+Someone who's there
+Feeling unknown
+And you're all alone
+Flesh and bone
+By the telephone
+Lift up the receiver
+I'll make you a believer
+I will deliver
+You know I'm a forgiver
+Reach out, touch faith
+Your own personal Jesus
+Reach out, touch faith
+Reach out, touch faith
+Reach out, touch faith
+(Reach out, reach out)
+Reach out, touch faith
+Reach out and touch faith`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/u1xrNaTO1bI" title="Depeche Mode - Personal Jesus (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    },
+    {
+        author: 'depeche mode',
+        song: 'WRONG',
+        text: `Wrong
+Wrong
+Wrong
+Wrong
+I was born with the wrong sign
+In the wrong house
+With the wrong ascendancy
+I took the wrong road
+That led to the wrong tendencies
+I was in the wrong place at the wrong time
+For the wrong reason and the wrong rhyme
+On the wrong day of the wrong week
+I used the wrong method with the wrong technique
+Wrong
+Wrong
+There's something wrong with me chemically
+Something wrong with me inherently
+The wrong mix in the wrong genes
+I reached the wrong ends by the wrong means
+It was the wrong plan
+In the wrong hands
+With the wrong theory for the wrong man
+The wrong lies, on the wrong vibes
+The wrong questions with the wrong replies
+Wrong
+Wrong
+I was marching to the wrong drum
+With the wrong scum
+Pissing out the wrong energy
+Using all the wrong lines
+And the wrong signs
+With the wrong intensity
+I was on the wrong page of the wrong book
+With the wrong rendition of the wrong hook
+Made the wrong move, every wrong night
+With the wrong tune played 'til it sounded right, yeah
+Wrong
+Wrong
+Too long
+Wrong
+Too long
+Wrong
+Too long
+Wrong
+Too long
+Wrong
+Too long
+I was born with the wrong sign (wrong)
+In the wrong house
+With the wrong ascendancy (too long)
+I took the wrong road (wrong)
+That led to the wrong tendencies (too long)
+I was in the wrong place at the wrong time (wrong)
+For the wrong reason and the wrong rhyme (too long)
+On the wrong day of the wrong week (wrong)
+I used the wrong method with the wrong technique
+Wrong`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fhnrrLxQEVQ" title="Depeche Mode - Wrong (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    },
+    {
+        author: 'depeche mode',
+        song: 'SHAKE THE DISEASE',
+        text: `I'm not going down on my knees begging you to adore me
+Can't you see it's misery and torture for me
+When I'm misunderstood try as hard as you can
+I've tried as hard as I could
+To make you see
+How important it is for me
+Here is a plea from my heart to you
+Nobody knows me as well as you do
+You know how hard it is for me to shake the disease
+That takes hold of my tongue in situations like these
+Understand me
+Understand me
+Understand me
+Understand me
+Some people have to be permanently together
+Lovers devoted to each other forever
+Now I've got things to do and I've said before
+That I know you have too when I'm not there
+In spirit I'll be there
+Here is a plea from my heart to you
+Nobody knows me as well as you do
+You know how hard it is for me to shake the disease
+That takes hold of my tongue in situations like these
+Understand me
+Understand me
+Understand me
+Understand me
+Here is a plea from my heart to you
+Nobody knows me as well as you do
+You know how hard it is for me to shake the disease
+That takes hold of my tongue in situations like these
+Here is a plea from my heart to you
+Nobody knows me as well as you do
+You know how hard it is for me to shake the disease
+That takes hold of my tongue in situations like these
+Here is a plea from my heart to you
+Nobody knows me as well as you do
+You know how hard it is for me to shake the disease
+That takes hold of my tongue in situations like these`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/8GcB4dzQGAA" title="Depeche Mode - Shake The Disease (Live from 101 HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+    },
+    {
+        author: 'depeche mode',
+        song: 'WHERE`S THE REVOLUTION',
+        text: `You've been kept down
+You've been pushed 'round
+You've been lied to
+You've been fed truths
+Who's making your decisions?
+You or your religion?
+Your government, your countries?
+You patriotic junkies
+Where's the revolution?
+Come on, people
+You're letting me down
+Where's the revolution?
+Come on, people
+You're letting me down
+You've been pissed on
+For too long
+Your rights abused
+Your views refused
+They manipulate and threaten
+With terror as a weapon
+Scare you till you're stupefied
+Wear you down until you're on their side
+Where's the revolution?
+Come on, people
+You're letting me down
+Where's the revolution?
+Come on, people
+You're letting me down
+The train is coming
+The train is coming
+The train is coming
+The train is coming
+So get on board
+Get on board
+Get on board
+Get on board
+The engine's humming
+The engine's humming
+The engine's humming
+The engine's humming
+So get on board
+Get on board
+Get on board
+Get on board
+The train is coming
+The train is coming
+The train is coming
+The train is coming
+So get on board
+Get on board
+Get on board
+Get on board
+The engine's humming
+The engine's humming
+The engine's humming
+The engine's humming
+So get on board
+Get on board
+Where's the revolution?
+Come on, people
+You're letting me down
+Where's the revolution?
+Come on, people
+You're letting me down
+Where's the revolution?
+Come on, people
+You're letting me down
+Where's the revolution?
+Come on, people
+You're letting me down`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/jsCR05oKROA" title="Depeche Mode - Where's the Revolution (Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     }
 ];
 
