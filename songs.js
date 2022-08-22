@@ -73,7 +73,8 @@ When all are one, and one is all
 To be a rock and not to roll
 
 [Outro]
-And she's buying a stairway to Heaven`
+And she's buying a stairway to Heaven`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/QkF3oxziUI4" title="Led Zeppelin - Stairway To Heaven (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "QUEEN",
@@ -134,7 +135,8 @@ Just gotta get out, just gotta get right outta here
 Nothing really matters, Anyone can see,
 Nothing really matters,
 Nothing really matters to me
-Any way the wind blows...`
+Any way the wind blows...`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Queen – Bohemian Rhapsody (Official Video Remastered)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "LYNYRD SKYNYRD",
@@ -165,7 +167,8 @@ And this bird, you cannot change
 Lord knows, I can't change
 Lord help me, I can't change
 Lord, I can't change
-Won't you fly high, free bird, yeah`
+Won't you fly high, free bird, yeah`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IGLVMBTIAPE" title="Free Bird" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "DEEP PURPLE",
@@ -204,7 +207,8 @@ No matter what we get out of this, ha
 I know, I know we'll never forget
 
 Smoke on the water, a fire in the sky
-Smoke on the water`
+Smoke on the water`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zUwEIt9ez7M" title="Deep Purple - Smoke on the Water (Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "JIMI HENDRIX",
@@ -236,7 +240,8 @@ A wildcat did growl
 Two riders were approaching
 And the wind began to howl, hey
 All along the watchtower
-All along the watchtower`
+All along the watchtower`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/TLV4_xaYynY" title="The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "AC/DC",
@@ -297,7 +302,8 @@ Back (I'm back)
 Back
 Back in black
 Yes, I'm back in black
-I've hit the sack`
+I've hit the sack`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/pAgnJDJN4VA" title="AC/DC - Back In Black (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "QUEEN",
@@ -322,7 +328,8 @@ We will, we will rock you, yeah, yeah, come on
 We will, we will rock you, alright, louder!
 We will, we will rock you, one more time
 We will, we will rock you
-Yeah`
+Yeah`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-tJYN-eG1zk" title="Queen - We Will Rock You (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "METALLICA",
@@ -377,37 +384,11 @@ We're off to never-never land
 Take my hand
 We're off to never-never land
 Take my hand
-We're off to never-never land`
+We're off to never-never land`,
+        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/CD-E-LDc384" title="Metallica: Enter Sandman (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     }
 ];
 
-// const songList = document.querySelector('.songs-list');
-// const li = document.createElement('li')
-// const song = document.createElement('span')
-// const button = document.createElement('button')
-// const myModal = document.createElement('div')
-// const modalContent = document.createElement('div')
-// const closeBtn = document.createElement('span')
-// const lyrics = document.createElement('p')
-
-// songList.append(li)
-
-// li.append(song, button, myModal)
-// button.classList.add('myBtn')
-// song.classList.add('song')
-// myModal.classList.add('myModal', 'modal')
-
-// myModal.append(modalContent)
-// modalContent.classList.add('modal-content')
-
-// modalContent.append(closeBtn, lyrics)
-// closeBtn.classList.add('close')
-// lyrics.classList.add('lyrics')
-
-
-// song.innerText = playList[0].song
-// button.innerText = 'show song text'
-// lyrics.innerText = playList[0].text
 for (let i = 0; i < playList.length; i += 1) {
     const songList = document.querySelector('.songs-list');
     const li = document.createElement('li')
@@ -417,6 +398,7 @@ for (let i = 0; i < playList.length; i += 1) {
     const modalContent = document.createElement('div')
     const closeBtn = document.createElement('span')
     const lyrics = document.createElement('p')
+    const videoFrame = document.createElement('div')
 
     songList.append(li)
 
@@ -428,14 +410,17 @@ for (let i = 0; i < playList.length; i += 1) {
     myModal.append(modalContent)
     modalContent.classList.add('modal-content')
 
-    modalContent.append(closeBtn, lyrics)
+    modalContent.append(closeBtn, lyrics, videoFrame)
+    videoFrame.classList.add('video')
     closeBtn.classList.add('close')
     lyrics.classList.add('lyrics')
 
+    videoFrame.innerHTML = playList[i].video
     song.innerText = playList[i].song
     closeBtn.innerText = 'x'
     button.innerText = 'show song text'
     lyrics.innerText = playList[i].text
+
 
     button.onclick = function () {
         myModal.style.display = "block";
@@ -451,6 +436,3 @@ for (let i = 0; i < playList.length; i += 1) {
         }
     }
 }
-
-
-
