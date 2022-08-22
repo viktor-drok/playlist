@@ -1,4 +1,8 @@
-body {font-family: Arial, Helvetica, sans-serif;}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  max-width: 1170px;
+  margin: 0 auto;
+}
 
 /* The Modal (background) */
 .modal {
@@ -26,6 +30,9 @@ body {font-family: Arial, Helvetica, sans-serif;}
 
 /* The Close Button */
 .close {
+  position: sticky;
+  top: 0;
+  right: 0;
   color: #aaaaaa;
   float: right;
   font-size: 28px;
@@ -39,7 +46,19 @@ body {font-family: Arial, Helvetica, sans-serif;}
   cursor: pointer;
 }
 
-li {
+.songs-list {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
 }
+
+.myBtn {
+  float: right;
+}
+
+.modal-content {
+  position: relative;
+  width: 30%;
+  height: 50%;
+  overflow-y: scroll;
+}
+
