@@ -74,7 +74,7 @@ To be a rock and not to roll
 
 [Outro]
 And she's buying a stairway to Heaven`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/QkF3oxziUI4" title="Led Zeppelin - Stairway To Heaven (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/QkF3oxziUI4" title="Led Zeppelin - Stairway To Heaven (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "QUEEN",
@@ -136,7 +136,7 @@ Nothing really matters, Anyone can see,
 Nothing really matters,
 Nothing really matters to me
 Any way the wind blows...`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Queen – Bohemian Rhapsody (Official Video Remastered)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Queen – Bohemian Rhapsody (Official Video Remastered)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "LYNYRD SKYNYRD",
@@ -168,7 +168,7 @@ Lord knows, I can't change
 Lord help me, I can't change
 Lord, I can't change
 Won't you fly high, free bird, yeah`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/IGLVMBTIAPE" title="Free Bird" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/IGLVMBTIAPE" title="Free Bird" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "DEEP PURPLE",
@@ -208,7 +208,7 @@ I know, I know we'll never forget
 
 Smoke on the water, a fire in the sky
 Smoke on the water`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/zUwEIt9ez7M" title="Deep Purple - Smoke on the Water (Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/zUwEIt9ez7M" title="Deep Purple - Smoke on the Water (Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "JIMI HENDRIX",
@@ -241,7 +241,7 @@ Two riders were approaching
 And the wind began to howl, hey
 All along the watchtower
 All along the watchtower`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/TLV4_xaYynY" title="The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/TLV4_xaYynY" title="The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "AC/DC",
@@ -303,7 +303,7 @@ Back
 Back in black
 Yes, I'm back in black
 I've hit the sack`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/pAgnJDJN4VA" title="AC/DC - Back In Black (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/pAgnJDJN4VA" title="AC/DC - Back In Black (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "QUEEN",
@@ -329,7 +329,7 @@ We will, we will rock you, alright, louder!
 We will, we will rock you, one more time
 We will, we will rock you
 Yeah`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-tJYN-eG1zk" title="Queen - We Will Rock You (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/-tJYN-eG1zk" title="Queen - We Will Rock You (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: "METALLICA",
@@ -385,7 +385,7 @@ Take my hand
 We're off to never-never land
 Take my hand
 We're off to never-never land`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/CD-E-LDc384" title="Metallica: Enter Sandman (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/CD-E-LDc384" title="Metallica: Enter Sandman (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: 'depeche mode',
@@ -433,7 +433,7 @@ Reach out, touch faith
 (Reach out, reach out)
 Reach out, touch faith
 Reach out and touch faith`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/u1xrNaTO1bI" title="Depeche Mode - Personal Jesus (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/u1xrNaTO1bI" title="Depeche Mode - Personal Jesus (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: 'depeche mode',
@@ -495,7 +495,7 @@ For the wrong reason and the wrong rhyme (too long)
 On the wrong day of the wrong week (wrong)
 I used the wrong method with the wrong technique
 Wrong`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/fhnrrLxQEVQ" title="Depeche Mode - Wrong (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/fhnrrLxQEVQ" title="Depeche Mode - Wrong (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: 'depeche mode',
@@ -539,7 +539,7 @@ Here is a plea from my heart to you
 Nobody knows me as well as you do
 You know how hard it is for me to shake the disease
 That takes hold of my tongue in situations like these`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/8GcB4dzQGAA" title="Depeche Mode - Shake The Disease (Live from 101 HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/8GcB4dzQGAA" title="Depeche Mode - Shake The Disease (Live from 101 HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
         author: 'depeche mode',
@@ -614,7 +614,7 @@ You're letting me down
 Where's the revolution?
 Come on, people
 You're letting me down`,
-        video: `<iframe width="100%" height="100%" src="https://www.youtube.com/embed/jsCR05oKROA" title="Depeche Mode - Where's the Revolution (Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
+        video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/jsCR05oKROA" title="Depeche Mode - Where's the Revolution (Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     }
 ];
 
@@ -622,7 +622,7 @@ for (let i = 0; i < playList.length; i += 1) {
     const songList = document.querySelector('.songs-list');
     const li = document.createElement('li')
     const song = document.createElement('span')
-    const button = document.createElement('button')
+    const button = document.createElement('i')
     const myModal = document.createElement('div')
     const modalContent = document.createElement('div')
     const closeBtn = document.createElement('span')
@@ -632,7 +632,7 @@ for (let i = 0; i < playList.length; i += 1) {
     songList.append(li)
 
     li.append(song, button, myModal)
-    button.classList.add('myBtn')
+    button.classList.add('myBtn', 'fa-brands', 'fa-youtube')
     song.classList.add('song')
     myModal.classList.add('myModal', 'modal')
 
@@ -647,20 +647,19 @@ for (let i = 0; i < playList.length; i += 1) {
     videoFrame.innerHTML = playList[i].video
     song.innerText = playList[i].song
     closeBtn.innerText = 'x'
-    button.innerText = 'show song text'
     lyrics.innerText = playList[i].text
 
 
     button.onclick = function () {
         myModal.style.display = "block";
     }
-    
+
     closeBtn.onclick = function () {
         myModal.style.display = "none";
     }
-    
+
     window.onclick = function (event) {
-        if (event.target == myModal) {
+        if (event.target === myModal) {
             myModal.style.display = "none";
         }
     }
