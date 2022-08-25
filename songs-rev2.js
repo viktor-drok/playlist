@@ -617,90 +617,43 @@ You're letting me down`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/jsCR05oKROA" title="Depeche Mode - Where's the Revolution (Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     }
 ];
+let playListLength = playList.length;
 const songList = document.querySelector('.songs-list');
 
-songList.innerHTML = '';
+function makeSongsList(playListLength) {
+    const list = [];
 
-for (let i = 0; i < playList.length; i += 1) {
-    // const li = document.createElement('li')
-    // const song = document.createElement('span')
-    // const button = document.createElement('button')
-    // const myModal = document.createElement('div')
-    // const modalContent = document.createElement('div')
-    // const closeBtn = document.createElement('span')
-    // const lyrics = document.createElement('p')
-    // const videoFrame = document.createElement('div')
+    for (let i = 0; i < playListLength; i += 1) {
+        list.push(document.createElement('li'));
+    }
 
-    // songList.innerHTML
-    let abc = `
-    <li class="swiper-slide">
-        <span class="song">${playList[i].song}</span>
-        <button class="myBtn fa-brands fa-youtube"></button>
-        <div class="myModal modal">
-        <div class="modal-content">
-        <span class="close">x</span>
-        <p class="lyrics">${playList[i].text}</p>
-    <div class="video">${playList[i].song}</div>
-    </div>
-    </div>
-    </li>`;
+    list.forEach(el => {
+        const span = document.createElement('span');
+        const button = document.createElement('button');
 
-    songList.innerHTML += abc;
+        el.append(span, button);
+        span.classList.add('song');
+        button.classList.add('myBtn', 'fa-brands', 'fa-youtube');
+    });
 
-    let button = document.querySelector('.myBtn');
-    const myModal = document.querySelector('.myModal');
-    const closeBtn = document.querySelector('.close');
-    console.log(button.closest('.songs-list'));
+    return list;
+};
 
+const list = makeSongsList(playListLength);
+songList.append(...list);
 
-    // songList.append(li)
-    // li.classList.add('swiper-slide')
+const li = document.querySelector('li');
+li.classList.add('swiper-slide');
 
-    // li.append(song, button, myModal)
-    // button.classList.add('myBtn', 'fa-brands', 'fa-youtube')
-    // song.classList.add('song')
-    // myModal.classList.add('myModal', 'modal')
+const span = document.querySelectorAll('.song');
 
-    // myModal.append(modalContent)
-    // modalContent.classList.add('modal-content')
-
-    // modalContent.append(closeBtn, lyrics, videoFrame)
-    // videoFrame.classList.add('video')
-    // closeBtn.classList.add('close')
-    // lyrics.classList.add('lyrics')
-
-    // videoFrame.innerHTML = playList[i].video
-    // song.innerText = playList[i].song
-    // closeBtn.innerText = 'x'
-    // lyrics.innerText = playList[i].text
-    // songList.addEventListener('click', (event) => {
-    //     const btn = document.getElementsByClassName('myBtn');
-    //     for (let i = 0; i < btn.length; i += 1) {
-    //         if (event.target.closest('.myBtn')) {
-    //             btn[i].target.closest('.myBtn').addEventListener('click', () => {
-
-    //                 myModal.style.display = "block";
-    //             });
-    //         }
-    //     }
-    // });
-    // songList.onclick = function (event) {
-    //     if (event.target.classList.contain('.myBtn')) {
-    //         myModal.style.display = "block";
-    //     }
-    // }
-
-    button.onclick = function () {
-        myModal.style.display = "block";
-    };
-
-    closeBtn.onclick = function () {
-        myModal.style.display = "none";
-    };
-
-    window.onclick = function (event) {
-        if (event.target === myModal) {
-            myModal.style.display = "none";
-        }
-    };
+function wrightDownSongs() {
+    for (let i = 0; i < playListLength; i += 1) {
+        span[i].innerHTML = playList[i].song;
+    }
 }
+
+const spanText = wrightDownSongs();
+
+// li.append(...listSpan);
+
