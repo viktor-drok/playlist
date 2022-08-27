@@ -639,21 +639,55 @@ function makeSongsList(playListLength) {
     return list;
 };
 
-const list = makeSongsList(playListLength);
-songList.append(...list);
+const listItems = makeSongsList(playListLength);
+songList.append(...listItems);
 
-const li = document.querySelector('li');
-li.classList.add('swiper-slide');
+// const li = document.querySelector('li');
+// li.classList.add('swiper-slide');
 
-const span = document.querySelectorAll('.song');
+const spans = document.querySelectorAll('.song');
 
-function wrightDownSongs() {
+function writeDownSongs() {
     for (let i = 0; i < playListLength; i += 1) {
-        span[i].innerHTML = playList[i].song;
+        spans[i].innerHTML = playList[i].song;
+        listItems[i].dataset.text = playList[i].text;
     }
 }
 
-const spanText = wrightDownSongs();
+const spanText = writeDownSongs();
 
-// li.append(...listSpan);
+const modal = document.querySelector('.modal');
+const modalBtn = document.querySelector('myBtn');
+const modalContent = document.querySelector('.modal-content');
+
+
+songList.addEventListener('click', showModalOnBtnClick);
+
+// function delegBtnClick(event) {
+//     if (event.target.classList.contains('button')) {
+//         modalBtn.addEventListener('click', () =>
+//             modal.style.display = "block");
+//     }
+// }
+
+function showModalOnBtnClick(event) {
+    event.target.closest('button');
+    event.target.localName = 'button';
+    event.target.tagName = 'BUTTON';
+    if (event.target.classList.contains('myBtn')) {
+        modalContent.innerText = event.target.closest('li').dataset.text;
+        modal.style.display = "block";
+    }
+}
+
+
+window.addEventListener('click', closeModal);
+
+function closeModal(event) {
+    if (event.target === modal) {
+        modal.style.display = "none";
+    }
+}
+
+
 
