@@ -1,5 +1,6 @@
 const playList = [
     {
+        image: "url('images/led-zeppelin-collage-i3092.jpg')",
         author: "LED ZEPPELIN",
         song: "STAIRWAY TO HEAVEN",
         text: `[Intro]
@@ -77,6 +78,7 @@ And she's buying a stairway to Heaven`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/QkF3oxziUI4" title="Led Zeppelin - Stairway To Heaven (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/queen-poster1.jpg')",
         author: "QUEEN",
         song: "BOHEMIAN RHAPSODY",
         text: `Is this the real life?
@@ -139,6 +141,7 @@ Any way the wind blows...`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/fJ9rUzIMcZQ" title="Queen – Bohemian Rhapsody (Official Video Remastered)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/Lynyrd_Skynyrd-poster1.jpg')",
         author: "LYNYRD SKYNYRD",
         song: "FREE BIRD",
         text: `If I leave here tomorrow
@@ -171,6 +174,7 @@ Won't you fly high, free bird, yeah`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/IGLVMBTIAPE" title="Free Bird" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/deep-purple-poster1.jpg')",
         author: "DEEP PURPLE",
         song: "SMOKE ON THE WATER",
         text: `We all came out to Montreux
@@ -211,6 +215,7 @@ Smoke on the water`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/zUwEIt9ez7M" title="Deep Purple - Smoke on the Water (Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/jimi-hendrix-poster1.jpg')",
         author: "JIMI HENDRIX",
         song: "ALL ALONG THE WATCHTOWER",
         text: `There must be some kind of way outta here
@@ -244,6 +249,7 @@ All along the watchtower`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/TLV4_xaYynY" title="The Jimi Hendrix Experience - All Along The Watchtower (Official Audio)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/acdc-poster3.jpg')",
         author: "AC/DC",
         song: "BACK IN BLACK",
         text: `Back in black
@@ -306,6 +312,7 @@ I've hit the sack`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/pAgnJDJN4VA" title="AC/DC - Back In Black (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/queen-poster3.jpg')",
         author: "QUEEN",
         song: "WE WILL ROCK YOU",
         text: `Buddy, you're a boy, make a big noise
@@ -332,6 +339,7 @@ Yeah`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/-tJYN-eG1zk" title="Queen - We Will Rock You (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/metalicca-poster1.jpg')",
         author: "METALLICA",
         song: "ENTER SANDMAN",
         text: `Say your prayers, little one
@@ -388,6 +396,7 @@ We're off to never-never land`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/CD-E-LDc384" title="Metallica: Enter Sandman (Official Music Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/1903001787_w700_h500_plakat-depeche-mode.webp')",
         author: 'depeche mode',
         song: 'PERSONAL JESUS',
         text: `Reach out, touch faith
@@ -436,6 +445,7 @@ Reach out and touch faith`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/u1xrNaTO1bI" title="Depeche Mode - Personal Jesus (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/1903001787_w700_h500_plakat-depeche-mode.webp')",
         author: 'depeche mode',
         song: 'WRONG',
         text: `Wrong
@@ -498,6 +508,7 @@ Wrong`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/fhnrrLxQEVQ" title="Depeche Mode - Wrong (Official Video)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/1903001787_w700_h500_plakat-depeche-mode.webp')",
         author: 'depeche mode',
         song: 'SHAKE THE DISEASE',
         text: `I'm not going down on my knees begging you to adore me
@@ -542,6 +553,7 @@ That takes hold of my tongue in situations like these`,
         // video: `<iframe width="100%" height="500px" src="https://www.youtube.com/embed/8GcB4dzQGAA" title="Depeche Mode - Shake The Disease (Live from 101 HD)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`
     },
     {
+        image: "url('images/1903001787_w700_h500_plakat-depeche-mode.webp')",
         author: 'depeche mode',
         song: 'WHERE`S THE REVOLUTION',
         text: `You've been kept down
@@ -642,15 +654,17 @@ function makeSongsList(playListLength) {
 const listItems = makeSongsList(playListLength);
 songList.append(...listItems);
 
-// const li = document.querySelector('li');
-// li.classList.add('swiper-slide');
-
 const spans = document.querySelectorAll('.song');
 
 function writeDownSongs() {
+    const listLi = document.querySelectorAll('li');
+
     for (let i = 0; i < playListLength; i += 1) {
         spans[i].innerHTML = playList[i].song;
         listItems[i].dataset.text = playList[i].text;
+        listLi[i].classList.add('swiper-slide');
+        listLi[i].style.background = playList[i].image;
+        listLi[i].style.backgroundSize = '100% 100%';
     }
 }
 
@@ -660,15 +674,8 @@ const modal = document.querySelector('.modal');
 const modalBtn = document.querySelector('myBtn');
 const modalContent = document.querySelector('.modal-content');
 
-
 songList.addEventListener('click', showModalOnBtnClick);
 
-// function delegBtnClick(event) {
-//     if (event.target.classList.contains('button')) {
-//         modalBtn.addEventListener('click', () =>
-//             modal.style.display = "block");
-//     }
-// }
 
 function showModalOnBtnClick(event) {
     event.target.closest('button');
@@ -689,5 +696,29 @@ function closeModal(event) {
     }
 }
 
+// const buttonsContainer = document.querySelector('.pagination');
 
+function showSlide(index) {
+    index = index % songList.children.length;
+    songList.children[index].scrollIntoView({ behavior: 'smooth' });
+}
 
+// function makePaginationButtons(count) {
+//     let btns = [];
+//     for (let i = 0; i < count; i += 1) {
+//         btns.push(document.createElement('button'));
+//         btns[i].addEventListener('click', () => showSlide(i));
+//         // btns[i].style.backgroundColor = colors[i];
+//         btns.forEach(el =>
+//             el.classList.add('pagination-btn')
+//         );
+//     }
+
+//     return btns;
+// }
+
+// const buttonsClick = makePaginationButtons(playListLength);
+
+// const btns = makePaginationButtons(playListLength);
+// buttonsContainer.append(...btns);
+// const buttonsPag = buttonsContainer.querySelector('button');
