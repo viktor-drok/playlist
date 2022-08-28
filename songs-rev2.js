@@ -703,6 +703,36 @@ function showSlide(index) {
     songList.children[index].scrollIntoView({ behavior: 'smooth' });
 }
 
+const prevBtn = document.querySelector('.scroll-left');
+const nextBtn = document.querySelector('.scroll-right');
+const itemWidth = 600;
+const slidesToShow = 1;
+const slidesToScroll = 1;
+const movePosition = slidesToScroll * itemWidth;
+let position = 0;
+
+nextBtn.addEventListener('click', () => {
+    const itemsLeft = playListLength - (Math.abs(position) + slidesToShow * itemWidth) / itemWidth;
+
+    position -= itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;
+
+    // showSlide();
+    setPosition();
+});
+
+prevBtn.addEventListener('click', () => {
+    const itemsLeft = Math.abs(position) / itemWidth;
+
+    position += itemsLeft >= slidesToScroll ? movePosition : itemsLeft * itemWidth;
+    // showSlide();
+    setPosition();
+});
+
+function setPosition() {
+    // for (let i = 0; i < playListLength)
+    songList.style.transform = `translateX(${position}px)`;
+}
+
 // function makePaginationButtons(count) {
 //     let btns = [];
 //     for (let i = 0; i < count; i += 1) {
